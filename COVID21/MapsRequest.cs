@@ -11,7 +11,7 @@ namespace COVID21 {
 
     internal class MapsRequest {
 
-        private static string KEY = "AIzaSyDIspdR7YeDONQCScqJ9o9uqtTgBL54Yd8";
+        private static string KEY = "EXAMPLEKEY";
         private static string URL = "https://maps.googleapis.com/maps/api/geocode/xml?key={1}&components=postal_code:{0}";
 
         public Location location;
